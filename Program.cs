@@ -7,6 +7,7 @@ namespace CollectionDemo
         static void Main(string[] args)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             Console.WriteLine("Welcome to c# collection!");
             ListDemo list1 = new ListDemo();
             list1.List1();
@@ -29,6 +30,9 @@ namespace CollectionDemo
 =======
 
 >>>>>>> Set
+=======
+            StackDemo.Stack();
+>>>>>>> Stack
         }
     }
 }
