@@ -6,15 +6,17 @@ namespace CollectionDemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to c# collection!");
+            //Console.WriteLine("Welcome to c# collection!");
             //ListDemo list1 = new ListDemo();
             //list1.List1();
+            //ListDemo.doListDemo();
 
-            //CollectionSample.doListDemo();
+            SetDemo.doSetDemo();
+
             //CollectionSample.doStackDemo();
             //CollectionSample.doDictionaryDemo();
             //CollectionSample.doQueueDemo();
-           // CollectionSample.doSetDemo();
+
         }
     }
 }
