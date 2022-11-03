@@ -7,14 +7,15 @@ namespace CollectionDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to c# collection!");
-            //ListDemo list1 = new ListDemo();
-            //list1.List1();
+            ListDemo list1 = new ListDemo();
+            list1.List1();
+            ListDemo.doListDemo();
 
-            //CollectionSample.doListDemo();
+
             //CollectionSample.doStackDemo();
             //CollectionSample.doDictionaryDemo();
             //CollectionSample.doQueueDemo();
-           // CollectionSample.doSetDemo();
+            // CollectionSample.doSetDemo();
         }
     }
 }
